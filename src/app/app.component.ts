@@ -21,6 +21,11 @@ export class AppComponent implements OnInit {
       title: 'Botões',
       url: '/botoes',
       icon: 'add'
+    },
+    {
+      title: 'Api Externa',
+      url: '/apis',
+      icon: 'add'
     }
     
   ];

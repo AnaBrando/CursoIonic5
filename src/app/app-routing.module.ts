@@ -18,7 +18,12 @@ const routes: Routes = [
   {
     path: 'botoes',
     loadChildren: () => import('./botoes/botoes.module').then( m => m.BotoesPageModule)
+  },
+  {
+    path: 'apis',
+    loadChildren: () => import('./apis/apis.module').then( m => m.ApisPageModule)
   }
+
 ];
 
 @NgModule({
